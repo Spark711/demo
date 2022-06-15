@@ -85,18 +85,6 @@ public class SampleTest {
         Thread.sleep(5000);
         driver.close();
 
-        //Assert.assertTrue(driver.findElement(By.xpath("//*[@id='nbf_product_pricingsummary']//div[contains(text(),'£2,998')]")).getText().equalsIgnoreCase("£2,998"));
-// noOfGuestSelect.selectByVisibleText("1");
-// WebElement searchToolbarElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='search']")));
-// //WebElement searchToolbarElement = driver.findElement(By.id("search"));
-// searchToolbarElement.sendKeys("old skool");
-// //driver.findElement(By.id("search")).sendKeys("Happiness");
-// WebElement searchButtonElement = driver.findElement(By.id("search-icon-legacy"));
-// searchButtonElement.click();
-// Thread.sleep(5000);
-// driver.findElement(By.xpath("//a[@id='video-title']")).click();
-// Thread.sleep(120000);
-
     }
 
 }
